@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar {
+  border: solid black;
+  background-color: #24d37e;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.navBar a {
+  text-decoration-line: none;
+}
+
+.navBar div:hover {
+  background-color: blue;
+  color: white;
+}
+
+.names {
+  text-decoration-line: none;
+}
+
+.names:hover {
+  background-color: #24d37e;
+}
